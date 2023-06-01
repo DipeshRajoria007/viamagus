@@ -1,24 +1,31 @@
 import { useState } from "react";
 import ReactPlayer from "react-player";
-
+import video1 from "./assets/1.mp4";
+import video2 from "./assets/2.mp4";
+import video3 from "./assets/3.mp4";
+import video4 from "./assets/4.mp4";
+import img1 from "./assets/1.jpg";
+import img2 from "./assets/2.jpg";
+import img3 from "./assets/3.jpg";
+import img4 from "./assets/4.jpg";
 const Video = () => {
   const [selectedVideoIndex, setSelectedVideoIndex] = useState(0);
   const videos = [
     {
-      url: "../../src/assets/1.mp4",
-      thumbnail: "../../src/assets/1.jpg",
+      url: video1,
+      thumbnail: img1,
     },
     {
-      url: "../../src/assets/2.mp4",
-      thumbnail: "../../src/assets/2.jpg",
+      url: video2,
+      thumbnail: img2,
     },
     {
-      url: "../../src/assets/3.mp4",
-      thumbnail: "../../src/assets/3.jpg",
+      url: video3,
+      thumbnail: img3,
     },
     {
-      url: "../../src/assets/4.mp4",
-      thumbnail: "../../src/assets/4.jpg",
+      url: video4,
+      thumbnail: img4,
     },
   ];
   const handleThumbnailClick = (index) => {
