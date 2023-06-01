@@ -5,20 +5,20 @@ const Video = () => {
   const [selectedVideoIndex, setSelectedVideoIndex] = useState(0);
   const videos = [
     {
-      url: "src/assets/1.mp4",
-      thumbnail: "src/assets/1.jpg",
+      url: "../src/assets/1.mp4",
+      thumbnail: "../src/assets/1.jpg",
     },
     {
-      url: "src/assets/2.mp4",
-      thumbnail: "src/assets/2.jpg",
+      url: "../src/assets/2.mp4",
+      thumbnail: "../src/assets/2.jpg",
     },
     {
-      url: "src/assets/3.mp4",
-      thumbnail: "src/assets/3.jpg",
+      url: "../src/assets/3.mp4",
+      thumbnail: "../src/assets/3.jpg",
     },
     {
-      url: "src/assets/4.mp4",
-      thumbnail: "src/assets/4.jpg",
+      url: "../src/assets/4.mp4",
+      thumbnail: "../src/assets/4.jpg",
     },
   ];
   const handleThumbnailClick = (index) => {
