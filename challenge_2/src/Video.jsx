@@ -54,6 +54,22 @@ const Video = () => {
       url: video2,
       thumbnail: img2,
     },
+    {
+      url: video3,
+      thumbnail: img3,
+    },
+    {
+      url: video4,
+      thumbnail: img4,
+    },
+    {
+      url: video1,
+      thumbnail: img1,
+    },
+    {
+      url: video2,
+      thumbnail: img2,
+    },
   ];
 
   const handleThumbnailClick = (index) => {
@@ -65,15 +81,15 @@ const Video = () => {
   };
 
   const thumbContainer = {
-    width: "200px",
-    height: "200px",
+    width: "100px",
+    height: "100px",
     borderRadius: "50%",
-    padding: "10px",
+    margin: "10px",
   };
 
   const thumbnailStyle = {
-    height: "200px",
-    width: "200px",
+    height: "100px",
+    width: "100px",
     borderRadius: "50%",
     objectFit: "cover",
     margin: "5px",
@@ -103,7 +119,7 @@ const Video = () => {
       <div
         style={{
           display: "flex",
-          overflowX: "auto",
+          overflowX: "scroll",
           justifyContent: "center",
         }}
       >
